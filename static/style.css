@@ -1,0 +1,33 @@
+body {background-color: rebeccapurple;
+
+}
+
+#bio1{ 
+    border : 15px solid green;
+    
+    padding:5px;
+    box-sizing: border-box;
+    background-size:10px 10px;
+    background-color: lightgrey;
+            
+}
+
+.navbar-brand{
+    background-color:green;
+}
+
+.jumbotron {
+    background-color: grey;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+img {
+    border-radius: 4px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+}
+
+

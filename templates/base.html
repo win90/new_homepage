@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+ 
+    <title>My Profile</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+   
+
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          
+          
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="display-3"></h1>
+                    <p>  </p>
+                    <img src="/static/index.jpg" class="rounded-thumbnail" height="300" weight="300"/>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="display-5">Hello, World!</h3>
+                  <div id ="bio1">
+                    <p>My name is Win Tun Naing and welcome to my website.
+                    <a href="my-projects"> Find out more about me.</a></p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      
+      <div class="container">
+        <!-- Example row of columns -->
+      
+        <div class="row">
+          <div class="col-md-4">
+              <!-- {content} -->
+            <h2>My Blog</h2>
+            <p></p>
+            <p><a class="btn btn-secondary" href="my-blog" role="button" target="_self">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+              <!-- {content} -->
+            <h2>My Projects</h2>
+            <p> </p>
+            <p><a class="btn btn-secondary" href="my-projects" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+              <!-- {content} -->
+            <h2>My Contact</h2>
+            <p></p>
+            <p><a class="btn btn-secondary" href="contact-me" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        {% block content %}
+        {% endblock content %}
+
+    </div>
+    </main>
+
+    <footer class="container">
+      <p>&copy; 2019</p>
+    </footer>
+
+  
+  </body>
+</html>
