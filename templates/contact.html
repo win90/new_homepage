@@ -18,6 +18,21 @@
     <a href="mailto:wintunnaing55@gmail.com" class="btn btn-lg">
     <button style="font-size:24px;color:red">Email Me <i class="fa fa-envelope"></i></button>    
     </a></p>
+
+    <form action="." method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        
+        <p>Name: <input name="name" /></p>
+        <p>Email:<input name="email"/></P>
+        <p>Message:<input name="message"/></p>
+        <p>Phone: <input name="phone" /></p>
+
+        
+        
+        <button>Submit</button>
+    </form>
+
 {% endblock content %}
     
     <!-- <p></p>
