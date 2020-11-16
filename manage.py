@@ -1,4 +1,4 @@
-# This is all boilerplate, don't touch this file for now!
+# This is all boilerplate, don't touch this file for now and try with differnt template.
 import sys
 import os
 from django.conf import settings
